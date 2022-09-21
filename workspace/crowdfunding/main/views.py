@@ -15,7 +15,7 @@ def main(request):
 
 
     #合約json檔案路徑
-    compiled_contract_path = 'CrowdfundingDapp/build/contracts/DreamCyut.json'
+    compiled_contract_path = 'crowdfundingDapp/build/contracts/DreamCyut.json'
 
     #部署完的合約地址
     deployed_contract_address = '0xCaC46b2C3F402ED2F782032835D02371Dc85AF08'
