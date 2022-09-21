@@ -18,7 +18,7 @@ def main(request):
     compiled_contract_path = 'CrowdfundingDapp/build/contracts/DreamCyut.json'
 
     #部署完的合約地址
-    deployed_contract_address = '0x185A388D6BFbAE81340eca07A3f75230aD9be740'
+    deployed_contract_address = '0xCaC46b2C3F402ED2F782032835D02371Dc85AF08'
     #解碼若遇到中文，使用utf-8
     with open(compiled_contract_path, encoding="utf-8") as file:
         contract_json = json.load(file)  #讀取json檔
